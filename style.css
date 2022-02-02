@@ -292,6 +292,45 @@ label {
     padding-bottom: 30px;
 }
 
+/* Index Carrusel */
+
+.index__carrusel {
+    border: solid 10px #000;
+    margin: auto;
+    width: 400px;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation-name: carrusel;
+    animation-iteration-count: infinite;
+    animation-timing-function: step-end;
+    animation-duration: 15s;
+    animation-delay: 0;
+
+}
+
+@keyframes carrusel {
+    0% {
+        background-image: url(./imagenes/flor.JPG);
+    }
+
+    25% {
+        background-image: url(./imagenes/Productos/aceiteDeAlmendras.JPG);
+    }
+
+    50% {
+        background-image: url(./imagenes/Inicio/primeraFoto.jpg);
+    }
+
+    75% {
+        background-image: url(./imagenes/Servicios/manos1.JPG);
+    }
+
+    100% {
+        background-image: url(./imagenes/Servicios/manos2.JPG);
+    }
+}
+
 /*FOOTER*/
 
 footer {
