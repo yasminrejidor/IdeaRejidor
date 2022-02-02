@@ -1,0 +1,341 @@
+/*BODY*/
+
+* {
+    margin: 0;
+    padding: 0;
+    width: auto;
+}
+
+body {
+    background-color: #ffffff;
+    color: #FFB6C1;
+    font-family: 'Bebas Neue', cursive;
+}
+
+main h1, main h2, main h3, main p {
+    color: #000;
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+main p{
+    font-size: 28px;
+}
+
+main p a {
+    color: #FFB6C1;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*HEADER*/
+
+nav {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(254,209,216,1) 85%);
+    /* background-color: #fff2f4; */
+    position:fixed;
+    width: 100%;
+}
+
+/*Logo*/
+
+#contenedor__nav__logo {
+    width: 40%;
+}
+
+
+#contenedor__nav__logo__img {
+    width: 200px;
+    height: 100%;
+    
+}
+
+/*Paginas*/
+
+#contenedor__nav__paginas {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    width: 50%;
+    padding-top: 35px;
+}
+
+.contenedor__nav__paginas__li {
+    font-size: 30px;
+}
+
+header a {
+    color: #000;
+}
+
+#paginas__li__actual {
+    color: #FFB6C1;
+}
+
+/*Iconos*/
+
+#contenedor__nav__iconos {
+    width: 10%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    padding-top: 30px;
+}
+
+/*MAIN*/
+
+main {
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+
+/*Imagenes*/
+
+main img {
+    display: block;
+    margin: auto;
+}
+
+/*Titulos de secciones*/
+.contenedor__banner {
+    width: 95%;
+    height: 300px;
+    background-image: url(./imagenes/Banners/flores2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+main section div {
+    background-color: #000;
+    margin: auto;
+    text-align: center;
+    padding-top: auto;
+    }
+
+main section div h1 {
+    color: #FFB6C1;
+}
+
+/*Mapa*/
+.mapa {
+    width: 95%;
+    height: 300px;
+    display: block;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+/*Texto de listas*/
+
+.contenedor__servicios{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.contenedor__servicios li {
+    color: #000;
+    text-align: center;
+    font-size: 32px;
+}
+
+/*Texto de subtitulo*/
+.subtitulo {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.contenedor__benner__subtitulo {
+    padding-top: 80px;
+}
+
+/* Productos */
+.contenedor__productos {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    background-color: #fff;
+    width: 100%;
+    margin: auto;
+    padding-top: 100px;
+}
+
+.contenedor__productos__imgYDescripcion {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    background-color: #fff;
+    padding-bottom: 50px;
+    width: 600px;
+}
+
+.contenedor__productos__img {
+    width: 500px;
+    height: 500px;
+}
+
+table {
+    margin: auto;
+    border: 0px;
+}
+
+th, td {
+    font-size: 24px;
+    color: #000;
+    background-color: #fff;
+}
+
+/*texto parrafos*/
+.sobreEliezer__p {
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+/*Galeria de imagenes*/
+
+.contenedor__galeria {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    background-color: #fff;
+    width: 100%;
+}
+
+.contenedor__galeria__img {
+    width: 500px;
+    height: 500px;
+    padding-bottom: 50px;
+}
+
+/* CONTACTO */
+
+.contenedor__contacto {
+    display: flex;
+    flex-flow: row wrap-reverse;
+    justify-content: space-evenly;
+    background-image: url(./imagenes/flor.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+    width: 95%;
+    margin-top: 50px;
+}
+
+.contenedor__contacto__div {
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 25px;
+    width: 700px;
+    background-color: #000;
+    color: #fff;
+    font-size: 28px;
+}
+
+.contenedor__contacto__datos {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+ }
+
+#contacto__datos__nombre, #contacto__datos__mail {
+    width: 300px;
+    height: 30px;
+}
+
+#contacto__consulta {
+    width: 90%;
+    height: 300px;
+}
+
+label {
+    text-align: left;
+}
+
+/* Lista contacto */
+#iconoColor1, #iconoColor2, #iconoColor3 {
+    color: #FFB6C1;
+    padding-bottom: 30px;
+}
+
+/*FOOTER*/
+
+footer {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        background-color: #000;
+        width: 100%;
+        
+    }
+
+footer a, footer p  {
+    color: #fff;
+    font-size: 20px;
+   }
+
+#contenedor__footer__p {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-left: 10px;
+    width: 95%;
+    
+}
+
+#contenedor__footer__i{
+    width: 5%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;    
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+/* RESPONSIVE*/
+
+@media only screen and (max-width: 768px){
+    
+    /* imagenes index */
+    #index__img__logo {
+        width: 300px;
+        margin-top: 5%;
+    }
+
+    #index__img__principal {
+        width: 80%;
+    }
+
+    /* banners titulos */
+    .contenedor__banner {
+        width: 100%;
+        height: 200px;
+        
+    }
+
+    /*Mapa*/
+    .mapa {
+        
+        height: 450px;
+        padding-top: 5%;
+    }
+
+}
