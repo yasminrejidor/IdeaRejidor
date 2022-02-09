@@ -16,73 +16,79 @@
     <title>Eliezer Beauty</title>
 </head>
 <body>
-    <header >
+  <header >
 
-        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: pink">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">
-                <img src="./imagenes/perfil3.JPG" alt="Logo de Eliezer" width="200" class="navegador__logo__img">
-              </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="./index.html" class="contenedor__nav__paginas__li" id="paginas__li__actual">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./paginas/sobreeliezer.html">Sobre Eliezer</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./paginas/servicios.html">Servicios</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./paginas/productos.html">Nuestros Productos</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./paginas/contacto.html">Contactanos</a>
-                  </li>
-                </ul>
-                <a class="nav-link iconoss" href="https://instagram.com/eliezer_beauty?utm_medium=copy_link" target="_blank">
-                    <i class="fab fa-instagram fa-3x" d-inline></i>
-                </a>
-                <a class="nav-link iconoss" href="https://wa.me/541167216736" target="_blank">
-                    <i class="fab fa-whatsapp fa-3x" d-inline></i>
-                </a>
-              </div>
-            </div>
-          </nav>
-    </header>
+    <nav class="fixed-top navbar navbar-expand-lg navbar-light header__nav">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="./imagenes/perfil3.JPG" alt="Logo de Eliezer" width="200" class="navegador__logo__img">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="text-end  collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="d-flex justify-content-evenly navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./index.html" class="contenedor__nav__paginas__li" id="paginas__li__actual">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./paginas/sobreeliezer.html">Sobre Eliezer</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./paginas/servicios.html">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./paginas/productos.html">Nuestros Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./paginas/contacto.html">Contactanos</a>
+              </li>
+            </ul>
+            <a class="nav-link iconoss" href="https://instagram.com/eliezer_beauty?utm_medium=copy_link" target="_blank">
+                <i class="d-inline fab fa-instagram fa-3x" ></i>
+            </a>
+            <a class="nav-link iconoss" href="https://wa.me/541167216736" target="_blank">
+                <i class="d-inline fab fa-whatsapp fa-3x"></i>
+            </a>
+          </div>
+        </div>
+      </nav>
+  </header>
+   
     <main class="container"> 
-        <section class="row">
-            <img src="imagenes/perfil3.JPG" alt="Foto de perfil" id="index__img__logo">
-        </section>
         
+        <!-- Carrusel -->
+        <div class=" row index__carrusel"></div>  
+
         <section class="row subtitulo">
             <h1 class="text-center">Nuestra Visión</h1>
             <h2 class="text-center">Servicios de estética, belleza de manos y pies</h2>
             <h2 class="text-center">Cosmetología</h2>
         </section>
-        <!-- Carrusel -->
-        <div class=" row index__carrusel"></div>
-    </main>
-    <footer class="container-fluid bg-dark">
+
         <section class="row">
-            <p style="color: white;" class="col-10">
+          <img src="imagenes/perfil3.JPG" alt="Foto de perfil" id="index__img__logo" class="col-12 col-lg-6 mx-auto">
+        </section>
+        
+    </main>
+
+    <footer class="container-fluid bg-dark contenedor__footer">
+        <section class="row">
+            <p class="footer__p col-10">
                 Eliezer Beauty |	Developed by/Creada por 
-                <a href="https://www.linkedin.com/" target="_blank" style="text-decoration: none;">Yasmín M. Rejidor</a>
+                <a href="https://www.linkedin.com/" target="_blank" class="footer__link">Yasmín M. Rejidor</a>
             </p>
-            <div class="col-2">
-                <a href="https://instagram.com/eliezer_beauty?utm_medium=copy_link" target="_blank">
+            <div  class="col-2 text-end">
+                <a href="https://instagram.com/eliezer_beauty?utm_medium=copy_link" target="_blank" class="footer__link">
                     <i class="fab fa-instagram"></i>    
                 </a>
-                <a href="https://wa.me/541167216736" target="_blank">
+                <a href="https://wa.me/541167216736" target="_blank" class="footer__link">
                    <i class="fab fa-whatsapp"></i>
                 </a>
             </div>
         </section>
     </footer>
+
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
