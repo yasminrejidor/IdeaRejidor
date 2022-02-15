@@ -63,7 +63,7 @@
     }
 }
 
-/* SOBRE ELIEZER */
+/* GENERALES - TITULOS DE PAGINAS */
 .contenedor__banner {
     color: #fff;
     margin-top: 150px;
@@ -71,9 +71,51 @@
     background-image: url(./imagenes/Banners/flores2.jpg);
 }
 
+li {
+    list-style: none;
+}
+
+/* Imagenes de galerias */
+
+.contenedor__galeria__img {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* SOBRE ELIEZER */
+
 main section p a {
     text-decoration: none;
      color: #000; 
+}
+
+
+/* PRODUCTOS */
+
+.contenedor__benner__subtitulo {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.contenedor__productos__imgYDescripcion {
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+/* SERVICIOS */
+.contenedor__servicios li {
+    text-align: center;
+}
+
+/* CONTACTO */
+
+.titulo__contacto{
+    text-align: center;
+}
+
+.contenedor__contacto__div {
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 /* FOOTER */
