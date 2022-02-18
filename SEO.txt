@@ -1,0 +1,6 @@
+SEO:
+
+Se agregó "sitemap".
+Se revisó que solo hubiera una etiqueta <h1> por página.
+Se incorporaron a la etiqueta <title> palabras clave relacionadas con cada una de las páginas según correspondiera.
+Se incorporó la etiqueta <meta> con palabras clave y descripción.
