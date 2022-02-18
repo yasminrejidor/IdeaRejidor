@@ -1,0 +1,100 @@
+/* VARIABLES */
+/* EXTEND */
+.iconoss i, .footer__link, main section p a {
+  text-decoration: none; }
+
+/* MIXIN */
+/* TITULOS DE PAGINAS */
+.contenedor__banner {
+  color: white;
+  margin-top: 150px;
+  padding-top: 150px;
+  background-image: url(../imagenes/Banners/flores2.jpg); }
+
+/* Listas */
+li {
+  list-style: none; }
+
+/* Imagenes de galerias */
+.contenedor__galeria__img {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  /* margin-top: 30px;
+    margin-bottom: 30px; */ }
+
+/* HEADER */
+.header__nav {
+  background-color: pink; }
+
+.iconoss i {
+  color: black; }
+
+/* FOOTER */
+.footer__link {
+  color: white; }
+
+.footer__p {
+  color: white; }
+
+/* INDEX */
+#index__img__logo {
+  /* padding-left: 33%;
+    padding-right: 33%; */
+  padding-top: 50px;
+  padding-bottom: 50px; }
+
+.navegador__logo__img {
+  height: 80px; }
+
+/* Carrusel */
+.index__carrusel {
+  border: solid 10px black;
+  margin-top: 150px;
+  margin-bottom: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation-name: carrusel;
+  animation-iteration-count: infinite;
+  animation-timing-function: step-end;
+  animation-duration: 15s;
+  animation-delay: 0; }
+
+@keyframes carrusel {
+  0% {
+    background-image: url(../imagenes/flor.JPG); }
+  25% {
+    background-image: url(../imagenes/Productos/aceiteDeAlmendras.JPG); }
+  50% {
+    background-image: url(../imagenes/Inicio/primeraFoto.jpg); }
+  75% {
+    background-image: url(../imagenes/Servicios/manos1.JPG); }
+  100% {
+    background-image: url(../imagenes/Servicios/manos2.JPG); } }
+
+main section p a {
+  color: black; }
+
+/* PRODUCTOS */
+.contenedor__benner__subtitulo {
+  padding-top: 50px;
+  text-align: center; }
+
+.contenedor__productos__imgYDescripcion {
+  padding-top: 35px;
+  padding-bottom: 35px; }
+
+/* SERVICIOS */
+.contenedor__servicios li {
+  text-align: center; }
+
+/* CONTACTO */
+.titulo__contacto {
+  text-align: center; }
+
+.contenedor__contacto__div {
+  margin-top: 50px;
+  margin-bottom: 50px; }

@@ -1,0 +1,9 @@
+/* CONTACTO */
+
+.titulo__contacto{
+    text-align: center;
+}
+
+.contenedor__contacto__div {
+    @include margenes(50px, 50px);
+}

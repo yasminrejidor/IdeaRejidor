@@ -1,0 +1,19 @@
+
+/* VARIABLES */
+$colores: (
+    primario: white,
+    secundario: pink,
+    contraste: black,
+    hover-contraste: pink
+);
+
+/* EXTEND */
+%links{
+    text-decoration: none;
+}
+
+/* MIXIN */
+@mixin margenes ($top, $bottom) {
+    margin-top: $top;
+    margin-bottom: $bottom;
+}

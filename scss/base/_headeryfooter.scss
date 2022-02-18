@@ -1,0 +1,22 @@
+/* HEADER */
+
+.header__nav {
+    background-color: map-get($colores , secundario);
+}
+
+
+.iconoss i {
+    @extend %links;
+     color: map-get($colores , contraste);
+}
+
+/* FOOTER */
+
+.footer__link {
+    @extend %links;
+     color: map-get($colores , primario);
+}
+
+.footer__p {
+    color: map-get($colores , primario);
+}

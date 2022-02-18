@@ -1,0 +1,4 @@
+main section p a {
+    @extend %links;
+     color: map-get($colores , contraste); 
+}

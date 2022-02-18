@@ -1,0 +1,22 @@
+/* TITULOS DE PAGINAS */
+.contenedor__banner {
+    color: map-get($colores , primario);
+    margin-top: 150px;
+    padding-top: 150px;
+    background-image: url(../imagenes/Banners/flores2.jpg);
+}
+
+/* Listas */
+
+li {
+    list-style: none;
+}
+
+
+/* Imagenes de galerias */
+
+.contenedor__galeria__img {
+    @include margenes(30px, 30px);
+    /* margin-top: 30px;
+    margin-bottom: 30px; */
+}
