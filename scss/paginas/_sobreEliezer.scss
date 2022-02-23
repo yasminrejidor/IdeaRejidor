@@ -2,3 +2,12 @@ main section p a {
     @extend %links;
      color: map-get($colores , contraste); 
 }
+
+main section p a:hover {
+    color: map-get($colores , secundario);
+}
+
+.sobreEliezer__p
+{
+    padding-top: 30px;
+}

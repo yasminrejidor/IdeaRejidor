@@ -58,53 +58,32 @@
       </nav>
     </header>
     <main class="container">
-        <div class="row">
+        <!-- mapa -->
+        <div class="row contenedor__mapa">
             <iframe class="mapa col-12" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26281.72924927863!2d-58.43852501362934!3d-34.573396763198!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb59c771eb933%3A0x6b3113b596d78c69!2sPalermo%2C%20CABA!5e0!3m2!1ses!2sar!4v1640319367820!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </div>
-        <h1 class="titulo__contacto">CONTACTO</h1>
-
-        <section class="contenedor__contacto row">
-            <!-- Sección para escribir mensaje -->
-            
-                <form class="contenedor__contacto__div col-12">
-                    <div class="contenedor__contacto__datos">
-                            <div>
-                                <label for="contacto__datos__nombre">Nombre:</label><br>
-                                <input type="text" id="contacto__datos__nombre" placeholder="Nombre">
-                            </div>
-                            <div>
-                                <label for="contacto__datos__mail">Correo electrónico:</label><br>
-                                <input type="email" id="contacto__datos__mail" placeholder="correoelectronico@mail.com">
-                            </div>
-                    </div>
-                    <div >
-                        <label for="contacto__consulta">Consulta:</label><br>
-                        <input type="text" id="contacto__consulta" placeholder="Escriba su consulta aquí.">
-                    </div>
-                    <div>
-                        <input type="submit" value="Enviar">
-                    </div>
-                </form>
-            
-            <!-- Informacion de contacto -->
-            
-                <ul class="contenedor__contacto__div col-lg-12">
-                    <li><a href="https://instagram.com/eliezer_beauty?utm_medium=copy_link" target="_blank">
-                            <i class="fab fa-instagram" id="iconoColor1"></i>    
-                        </a>
-                        https://www.instagram.com/eliezer_beauty/
-                    </li>
-                    <li><a href="https://wa.me/541167216736" target="_blank">
-                            <i class="fab fa-whatsapp" id="iconoColor2">    
-                            </i>
-                        </a>+5491167216736
-                    </li>
-                    <li><i class="fas fa-map-marker-alt" id="iconoColor3">
-                        </i>
-                        Palermo
-                    </li>
-                </ul>      
+        <!-- titulo -->
+        <section class="row contenedor">
+          <h1 class="col-12 contenedor__titulo">CONTACTO</h1>
         </section>
+        <!-- Contacto -->
+        <form class="row formulario">
+          <div class="col-12 col-lg-5 formulario__nombre">
+            <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre:">
+          </div>
+          <div class="col-12 col-lg-5 formulario__mail">
+            <input type="email" class="form-control" placeholder="correo@email.com" aria-label="Correo electrónico:">
+          </div>
+          <div class="col-12 col-lg-10 formulario__consulta">
+            <input type="text" class="form-control form-control-lgx formulario__consulta__input" placeholder="Escriba su consulta." aria-label="Escriba su consulta:">
+          </div>
+          <!-- Botón -->
+          <div class="col-12 col-lg-10 formulario__boton">
+            <button type="submit" class=" btn btn-light formulario__boton">Enviar</button>
+          </div>
+        </form>
+
+       
 
         
             

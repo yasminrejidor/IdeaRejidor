@@ -10,11 +10,19 @@
      color: map-get($colores , contraste);
 }
 
+.iconoss i:hover {
+    color: map-get($colores , primario);
+}
+
 /* FOOTER */
 
 .footer__link {
     @extend %links;
      color: map-get($colores , primario);
+}
+
+.footer__link:hover {
+    color: map-get($colores , secundario);
 }
 
 .footer__p {

@@ -1,4 +1,11 @@
 /* SERVICIOS */
-.contenedor__servicios li {
-    text-align: center;
+.contenedor__servicios {
+    padding-top: 30px;
+
+    li {
+        text-align: center;
+        font-weight: 500;
+        font-size: 20px;
+    }
 }
+

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* VARIABLES */
 /* EXTEND */
 .iconoss i, .footer__link, main section p a {
@@ -18,9 +19,7 @@ li {
 /* Imagenes de galerias */
 .contenedor__galeria__img {
   margin-top: 30px;
-  margin-bottom: 30px;
-  /* margin-top: 30px;
-    margin-bottom: 30px; */ }
+  margin-bottom: 30px; }
 
 /* HEADER */
 .header__nav {
@@ -29,17 +28,21 @@ li {
 .iconoss i {
   color: black; }
 
+.iconoss i:hover {
+  color: white; }
+
 /* FOOTER */
 .footer__link {
   color: white; }
+
+.footer__link:hover {
+  color: pink; }
 
 .footer__p {
   color: white; }
 
 /* INDEX */
 #index__img__logo {
-  /* padding-left: 33%;
-    padding-right: 33%; */
   padding-top: 50px;
   padding-bottom: 50px; }
 
@@ -78,6 +81,12 @@ li {
 main section p a {
   color: black; }
 
+main section p a:hover {
+  color: pink; }
+
+.sobreEliezer__p {
+  padding-top: 30px; }
+
 /* PRODUCTOS */
 .contenedor__benner__subtitulo {
   padding-top: 50px;
@@ -88,13 +97,49 @@ main section p a {
   padding-bottom: 35px; }
 
 /* SERVICIOS */
-.contenedor__servicios li {
-  text-align: center; }
+.contenedor__servicios {
+  padding-top: 30px; }
+  .contenedor__servicios li {
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px; }
 
 /* CONTACTO */
-.titulo__contacto {
-  text-align: center; }
+/* MAPA */
+.contenedor__mapa {
+  padding-top: 150px;
+  padding-bottom: 0px; }
 
-.contenedor__contacto__div {
+/* DATOS DE CONTACTO */
+.contenedor {
   margin-top: 50px;
-  margin-bottom: 50px; }
+  margin-bottom: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: black;
+  /* título -h1 */ }
+  .contenedor__titulo {
+    text-align: center;
+    color: white; }
+
+/* Formulario */
+.formulario {
+  background-color: black;
+  padding-top: 45px;
+  padding-bottom: 10px;
+  margin-bottom: 50px;
+  justify-content: center; }
+  .formulario__nombre {
+    padding-top: 5px;
+    padding-bottom: 5px; }
+  .formulario__mail {
+    padding-top: 5px;
+    padding-bottom: 5px; }
+  .formulario__consulta {
+    padding-top: 5px;
+    padding-bottom: 5px; }
+    .formulario__consulta__input {
+      height: 100px; }
+  .formulario__boton {
+    padding-top: 5px;
+    padding-bottom: 5px; }
