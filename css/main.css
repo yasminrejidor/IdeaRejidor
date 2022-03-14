@@ -41,6 +41,10 @@ li {
 .footer__p {
   color: white; }
 
+.footer__t {
+  color: white;
+  font-weight: 600; }
+
 /* INDEX */
 #index__img__logo {
   padding-top: 50px;

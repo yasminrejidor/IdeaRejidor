@@ -28,3 +28,8 @@
 .footer__p {
     color: map-get($colores , primario);
 }
+
+.footer__t {
+    color: map-get($colores , primario);
+    font-weight: 600;
+}
